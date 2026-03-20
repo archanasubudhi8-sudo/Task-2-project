@@ -1,0 +1,91 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+.light {
+    background: #f1f5f9;
+    color: black;
+}
+
+.container {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    width: 450px;
+}
+
+.light .container {
+    background: white;
+}
+
+.input-section {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+input, select {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filters {
+    margin: 10px 0;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.theme-btn {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #334155;
+    margin: 6px 0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.light li {
+    background: #e2e8f0;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.task-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meta {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.high { color: red; }
+.medium { color: orange; }
+.low { color: green; }
